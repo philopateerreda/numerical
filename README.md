@@ -46,7 +46,8 @@ pip install PyQt6 numpy matplotlib sympy
 
 
 
-
+### 5. Curve fitting
+![image](https://github.com/user-attachments/assets/eee55cf8-4c4c-47d7-979e-c40b1c02873f)
 
 
 
