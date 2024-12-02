@@ -6,7 +6,7 @@ pip install PyQt6 numpy matplotlib sympy
 
 ## Projects
 
-### 1. Advanced Interpolation Suite
+### 1. nterpolation
 #### 1.lagrange
 ![image](https://github.com/user-attachments/assets/915c0f6e-141b-44b5-bc8c-269b53b62340)
 #### 2.Newton
@@ -18,7 +18,7 @@ pip install PyQt6 numpy matplotlib sympy
   - Step-by-step calculation breakdown
   - Comprehensive error analysis
 
-### 2. Dynamic Linear Function Visualizer
+### 2. Dynamic Linear Function 
 ![image](https://github.com/user-attachments/assets/f6b53ef0-adad-4eef-88ea-ec21649752fa)
 
 
