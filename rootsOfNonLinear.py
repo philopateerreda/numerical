@@ -504,7 +504,6 @@ class NonLinearSolverApp(QMainWindow):
             self.param1_input.setPlaceholderText("Initial guess (x0)")
             self.param2_input.setEnabled(False)
 
-
     def solve_equation(self):
         try:
             self.progress_bar.setValue(0)
@@ -512,7 +511,6 @@ class NonLinearSolverApp(QMainWindow):
             QApplication.processEvents()
 
             func_expr = self.func_input.text()
-            dfunc_expr = self.dfunc_input.text()
             method = self.method_combo.currentText()
             tolerance = float(self.tolerance_input.text())
             max_iter = self.max_iter_spinbox.value()
@@ -522,7 +520,6 @@ class NonLinearSolverApp(QMainWindow):
             QApplication.processEvents()
 
             func = self.create_function(func_expr)
-            dfunc = self.create_function(dfunc_expr) if dfunc_expr else None
 
             self.progress_bar.setValue(40)
             QApplication.processEvents()
@@ -558,7 +555,6 @@ class NonLinearSolverApp(QMainWindow):
         except Exception as e:
             QMessageBox.critical(self, "Error", f"An unexpected error occurred: {e}")
             self.progress_bar.setVisible(False)
-
 
     def display_results(self, results: List[tuple], method: str):
         self.results_table.setRowCount(0)

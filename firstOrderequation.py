@@ -21,7 +21,7 @@ class EnhancedLinearFunctionPlotter(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Professional Linear Function Plotter")
+        self.setWindowTitle("Linear Function Plotter")
         self.setStyleSheet(f"""
             QMainWindow, QWidget {{
                 background-color: {self.COLORS['background']};
